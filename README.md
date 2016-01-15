@@ -93,10 +93,18 @@ Let's say we want to select an image that has a specific alt text. The second im
 ```js
 $("img[alt=the beatles making faces']")
 ```
+## Last Selector
+
+Let's say you want to select the last div on the page. You could use the last selector to do that
+
+```js
+$('div:last')
+```
+
 
 ## Others
 
-There are a tremendous number of other jQuery selectors, including but not limited to last-child, nth-type-of, last selector, next sibling, input selector, and the list goes on. Take a look at the [MDN docs](https://api.jquery.com/category/selectors/) for a full list.
+There are a tremendous number of other jQuery selectors, including but not limited to last-child, nth-type-of,  next sibling, input selector, and the list goes on. Take a look at the [MDN docs](https://api.jquery.com/category/selectors/) for a full list.
 
 ## Instructions
 
