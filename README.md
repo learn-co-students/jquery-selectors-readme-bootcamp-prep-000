@@ -115,6 +115,14 @@ We can use that text to find the image:
 ```js
 $("img[alt='the beatles making faces']")
 ```
+## Last Selector
+
+Let's say you want to select the last div on the page. You could use the last selector to do that
+
+```js
+$('div:last')
+```
+
 
 ## Last Selector
 
