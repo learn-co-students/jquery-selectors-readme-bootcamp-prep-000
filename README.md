@@ -19,7 +19,7 @@ First things first, we need to link several files to `index.html`:
 
 + Our JS file: `<script src="js/selectors.js"></script>`
 
-All of these links should go inside the `head` tags. Order here matters, if we plan on using jQuery in `js/selectors.js` that file need to be linked first. 
+All of these links should go inside the `head` tags. Order here matters, if we plan on using jQuery in `js/selectors.js` that file needs to be linked first. 
 
 
 ## Using Selectors
