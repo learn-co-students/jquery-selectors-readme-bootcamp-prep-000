@@ -57,7 +57,7 @@ Just like in CSS, we use a `.` to denote a class. This code is selecting any HTM
 
 ### ID Selectors
 
-The first first gif on the page is a baby doing ninja moves. An ID selector works in much the same way as a class selector, you just replace the `.` with a `#`:
+The first gif on the page is a baby doing ninja moves. An ID selector works in much the same way as a class selector, you just replace the `.` with a `#`:
 
 ```js
 $('#baby-ninja')
@@ -65,7 +65,7 @@ $('#baby-ninja')
 
 ### Descendant Selector
 
-Let's say we want to selector all list items inside the `ul` tag. The `li` tags are descendants of the `ul` tag. We can use a jQuery descendant selector like this:
+Let's say we want to select all list items inside the `ul` tag. The `li` tags are descendants of the `ul` tag. We can use a jQuery descendant selector like this:
 
 ```js
 $('ul li')
@@ -114,7 +114,7 @@ If you take a look at `js/selectors.js`, you'll notice we don't have a document 
 
 + Write a function `lastImageSelector` which does not accept any parameters. The function should use the last jQuery selector to return the last image in `index.html`.
 
-+ Write a function `ninaBabySelector` which does not accept any parameters. The function should use an ID selector to return the ninja baby image.
++ Write a function `ninjaBabySelector` which does not accept any parameters. The function should use an ID selector to return the ninja baby image.
 
 + Write a function `divSelector` which does not accept any parameters. The function should use a class selector to return the two divs on the page.
 
