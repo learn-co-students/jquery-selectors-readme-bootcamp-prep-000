@@ -2,29 +2,31 @@
 
 ## Objectives
 
-+ Explain the purpose of a jQuery selector
-+ Use a jQuery selector to select an HTML element
++ Explain the purpose of a DOM selector
++ Use a DOM selector to select an HTML element
 
 ## Intro
 
-Because jQuery was created as a way to make DOM manipulation quick and painless, a big part of that is correctly selecting the DOM node you want to work with. Thankfully, jQuery provides a seamless way to select the correct HTML, similar to CSS selectors.
+Because jQuery was created as a way to make DOM manipulation quick and painless, a big part of that is correctly selecting the DOM node you want to work with. Thankfully, the browser provides a seamless way to select the correct HTML, similar to CSS selectors.
+
+When we're using jQuery, we can wrap these selectors (which are just strings) in a call to `$` — for example, if we wanted all the `div`s on a page, we could call `$('div')`.
 
 You will be coding your solution in `index.html` and `js/selectors.js`. There are tests for this walk-through to make sure your code works as expected.
 
 ## Getting Everything Set Up
 
-First things first, we need to link several files to `index.html`:
+First things first, we need to load several external resources to `index.html`:
 
 + jQuery: `<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>`
 
 + Our JS file: `<script src="js/selectors.js"></script>`
 
-All of these links should go inside the `head` tags. Order here matters, if we plan on using jQuery in `js/selectors.js` that file needs to be linked first. 
+Both of these script tags should go at the bottom the `body`. Order here matters, if we plan on using jQuery in `js/selectors.js` that file needs to be linked first.
 
 
 ## Using Selectors
 
-To set up a jQuery selector, you start with the `$`. Every line of jQuery code should start with the `$`. 
+To set up a jQuery selector, you start with the `$`. Every line of jQuery code should start with the `$`.
 
 ```js
 $('selector-goes-here')
@@ -46,7 +48,7 @@ Because we have six images on our page, this selector will return an array of al
 
 ### Class Selectors
 
-You'll notice `index.html` has two `divs` with the class `pics`. Let's use jQuery selectors to select those two divs.
+You'll notice `index.html` has two `divs` with the class `pics`. Let's use selectors to select those two divs.
 
 ```js
 $('.pics')
@@ -65,7 +67,7 @@ $('#baby-ninja')
 
 ### Descendant Selector
 
-Let's say we want to select all list items inside the `ul` tag. The `li` tags are descendants of the `ul` tag. We can use a jQuery descendant selector like this:
+Let's say we want to select all list items inside the `ul` tag. The `li` tags are descendants of the `ul` tag. We can use a descendant selector like this:
 
 ```js
 $('ul li')
@@ -104,13 +106,13 @@ $('div:last')
 
 ## Others
 
-There are a tremendous number of other jQuery selectors, including but not limited to last-child, nth-type-of,  next sibling, input selector, and the list goes on. Take a look at the [MDN docs](https://api.jquery.com/category/selectors/) for a full list.
+There are a tremendous number of other DOM selectors, including but not limited to last-child, nth-type-of,  next sibling, input selector, and the list goes on. Take a look at the [MDN docs](https://api.jquery.com/category/selectors/) for a full list.
 
 ## Instructions
 
 If you take a look at `js/selectors.js`, you'll notice we don't have a document ready. Because we're just going to practice writing selectors, and not using the selectors to do anything quite yet, we don't need to worry about browser interaction.
 
-+ Write a function `paragraphSelector` that does not accept any parameters. The function should use an element selector to select the `p` tag in `index.html` and return that element.
++ Write a function `paragraphSelector` that does not accept any parameters. The function should use an element selector to select the `p` tags in `index.html` and return those element. (Note that we're using the plural because the selector will always return an array when used with tags, even if there's only one!)
 
 + Write a function `lastImageSelector` which does not accept any parameters. The function should use the last jQuery selector to return the last image in `index.html`.
 
