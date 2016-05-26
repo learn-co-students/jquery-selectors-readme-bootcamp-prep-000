@@ -1,5 +1,3 @@
-'use-strict';
-
 // declare your functions here...
 
 function paragraphSelector(){
@@ -19,5 +17,5 @@ function divSelector(){
 }
 
 function firstListItem(){
-  return $('ul#pic-list li:first');
+  return $('ul#pic-list li:first-child');
 }

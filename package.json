@@ -1,0 +1,33 @@
+{
+  "name": "jquery-selectors-readme",
+  "version": "0.1.0",
+  "description": "Practice with jQuery Selectors",
+  "main": "js/selectors.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/jquery-selectors-readme.git"
+  },
+  "keywords": [
+    "javascript",
+    "jquery",
+    "learn",
+    "flatiron"
+  ],
+  "author": "Learn.co",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/jquery-selectors-readme/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/jquery-selectors-readme#readme",
+  "devDependencies": {
+    "expect": "^1.20.1",
+    "jquery": "^2.2.4",
+    "jsdom": "^9.2.0",
+    "mocha": "^2.5.3",
+    "mocha-jsdom": "^1.1.0",
+    "mocha-multi": "^0.9.0"
+  }
+}
