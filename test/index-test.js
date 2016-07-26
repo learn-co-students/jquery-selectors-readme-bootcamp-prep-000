@@ -1,22 +1,4 @@
-const expect = require('expect')
-const fs = require('fs')
-const jsdom = require('mocha-jsdom')
-const path = require('path')
-
 describe('Selectors', () => {
-  const html = fs.readFileSync(path.resolve(__dirname, '..', 'index.html'), 'utf-8')
-  const scripts = [
-    path.resolve(__dirname, '..', 'js', 'selectors.js'),
-    path.resolve(__dirname, '..', 'js', 'jquery-2.1.1.min.js')
-  ]
-
-  let $
-  jsdom({ html, scripts })
-
-  before(() => {
-    $ = require('jquery')
-  })
-
   it('paragraphSelector() should select all paragraphs', function() {
     expect(paragraphSelector().length).toBe(1);
     expect(paragraphSelector()[0].innerHTML).toEqual($('p')[0].innerHTML);
