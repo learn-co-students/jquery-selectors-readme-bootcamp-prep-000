@@ -21,7 +21,7 @@ First things first, we need to load several external resources to `index.html`:
 
 + Our JS file: `<script src="js/selectors.js"></script>`
 
-Both of these script tags should go at the bottom the `body`. Order here matters, if we plan on using jQuery in `js/selectors.js` that file needs to be linked first.
+Both of these script tags should go at the bottom the `body`. Order here matters. If we plan on using jQuery in `js/selectors.js`, that file needs to be linked first.
 
 
 ## Using Selectors
@@ -127,3 +127,5 @@ If you take a look at `js/selectors.js`, you'll notice we don't have a document 
 + [MDN jQuery Selectors](https://api.jquery.com/category/selectors/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/jquery-selectors-readme'>jQuery Selectors </a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/jquery-selectors-readme'>jQuery Selectors Lab</a> on Learn.co and start learning to code for free.</p>
