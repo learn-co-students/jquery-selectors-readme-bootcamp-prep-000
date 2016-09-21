@@ -15,13 +15,12 @@ You will be coding your solution in `index.html` and `js/selectors.js`. There ar
 
 ## Getting Everything Set Up
 
-First things first, we need to load several external resources to `index.html`:
+First things first, we need to load several resources to `index.html`:
 
-+ jQuery: `<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>`
-
++ jQuery: `<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>`
 + Our JS file: `<script src="js/selectors.js"></script>`
 
-Both of these script tags should go at the bottom the `body`. Order here matters, if we plan on using jQuery in `js/selectors.js` that file needs to be linked first.
+Both of these script tags should go at the bottom the `body`. Order here matters. If we plan on using jQuery in `js/selectors.js`, the minified jQuery file needs to be linked first.
 
 
 ## Using Selectors
@@ -59,7 +58,7 @@ Just like in CSS, we use a `.` to denote a class. This code is selecting any HTM
 
 ### ID Selectors
 
-The first gif on the page is a baby doing ninja moves. An ID selector works in much the same way as a class selector, you just replace the `.` with a `#`:
+The first gif on the page is a baby doing ninja moves. An ID selector works in much the same way as a class selector; you just replace the `.` with a `#`:
 
 ```js
 $('#baby-ninja')
@@ -89,7 +88,7 @@ $('div img:first-child')
 
 ### Alt Tag Selector
 
-Let's say we want to select an image that has a specific alt text. The second image on our page (or the beatles) has the alt text `"the beatles making faces"`. We can use that text to find the image:
+Let's say we want to select an image that has a specific alt text. The second image on our page (The Beatles) has the alt text `"the beatles making faces"`. We can use that text to find the image:
 
 
 ```js
@@ -112,15 +111,15 @@ There are a tremendous number of other DOM selectors, including but not limited 
 
 If you take a look at `js/selectors.js`, you'll notice we don't have a document ready. Because we're just going to practice writing selectors, and not using the selectors to do anything quite yet, we don't need to worry about browser interaction.
 
-+ Write a function `paragraphSelector` that does not accept any parameters. The function should use an element selector to select the `p` tags in `index.html` and return those element. (Note that we're using the plural because the selector will always return an array when used with tags, even if there's only one!)
++ Write a function `paragraphSelector` that does not accept any parameters. The function should use an element selector to select the `p` tags in `index.html` and return those elements. (Note that we're using the plural because the selector will always return an array when used with tags, even if there's only one!)
 
-+ Write a function `lastImageSelector` which does not accept any parameters. The function should use the last jQuery selector to return the last image in `index.html`.
++ Write a function `lastImageSelector` that does not accept any parameters. The function should use the last jQuery selector to return the last image in `index.html`.
 
-+ Write a function `ninjaBabySelector` which does not accept any parameters. The function should use an ID selector to return the ninja baby image.
++ Write a function `ninjaBabySelector` that does not accept any parameters. The function should use an ID selector to return the ninja baby image.
 
-+ Write a function `divSelector` which does not accept any parameters. The function should use a class selector to return the two divs on the page.
++ Write a function `divSelector` that does not accept any parameters. The function should use a class selector to return the two divs with the class `pics`.
 
-+ Write a function `firstListItem` which does not accept any parameters. The function should use a first-child selector to return the first list item in the `ul` with the ID `pic-list`.
++ Write a function `firstListItem` that does not accept any parameters. The function should use a first-child selector to return the first list item in the `ul` with the ID `pic-list`.
 
 ## Resources
 
