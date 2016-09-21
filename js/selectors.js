@@ -9,8 +9,6 @@ function paragraphSelector() {
   return $('p')
 }
 paragraphSelector()
-console.log(paragraphSelector())
-
 
 /*  Write a function lastImageSelector that does not accept any parameters.
     The function should use the last jQuery selector to return the last image in index.html.
