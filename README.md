@@ -15,10 +15,9 @@ You will be coding your solution in `index.html` and `js/selectors.js`. There ar
 
 ## Getting Everything Set Up
 
-First things first, we need to load several external resources to `index.html`:
+First things first, we need to load several resources to `index.html`:
 
 + jQuery: `<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>`
-
 + Our JS file: `<script src="js/selectors.js"></script>`
 
 Both of these script tags should go at the bottom the `body`. Order here matters. If we plan on using jQuery in `js/selectors.js`, the minified jQuery file needs to be linked first.
