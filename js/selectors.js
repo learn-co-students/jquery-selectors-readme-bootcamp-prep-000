@@ -1,4 +1,4 @@
-// Learn.co Bootcamp Prep 25 JavaScript jQuery Selectors.
+// Learn.co Bootcamp Prep 25 JavaScript jQuery Selectors Lab.
 
 // Define a function, 'paragraphSelector', that accepts no parameter(s).
 // Use an element selecter to return an the array of 'p' tags in 'index.html'.
