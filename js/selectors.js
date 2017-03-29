@@ -1,8 +1,8 @@
 // declare your functions here...
-//Write a function lastImageSelector that does not accept any parameters. 
+//Write a function lastImageSelector that does not accept any parameters.
 //The function should use the last jQuery selector to return the last image in index.html.
 function lastImageSelector() {
-  return $("img:last")
+  return  $("img:last")
 }
 
 function paragraphSelector(){
@@ -20,5 +20,5 @@ function divSelector(){
 function firstListItem(){
   return $('ul li:first-child')
 }
-//Write a function firstListItem that does not accept any parameters. The function should use a 
+//Write a function firstListItem that does not accept any parameters. The function should use a
 //first-child selector to return the first list item in the ul with the ID pic-list.*/
