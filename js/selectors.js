@@ -16,6 +16,5 @@ function divSelector(){
 }
 
 function firstListItem(){
-  var array = ['https://s3.amazonaws.com/after-school-assets/awesome.jpg'];
-  return array;
+  return $('ul #pic-list img:first-child')
 }
