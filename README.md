@@ -15,12 +15,12 @@ You will be coding your solution in `index.html` and `js/selectors.js`. There ar
 
 ## Getting Everything Set Up
 
-First things first, we need to load several resources to `index.html`:
+Notice that several resources have been added to `index.html`:
 
 + jQuery: `<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>`
 + Our JS file: `<script src="js/selectors.js"></script>`
 
-Both of these script tags should go at the bottom the `body`. Order here matters. If we plan on using jQuery in `js/selectors.js`, the minified jQuery file needs to be linked first.
+Both of these script tags are at the bottom the `body`, just as we have been doing in past lessons. Order here matters. If we plan on using jQuery in `js/selectors.js`, the minified jQuery file needs to be linked first.
 
 
 ## Using Selectors
@@ -126,3 +126,5 @@ If you take a look at `js/selectors.js`, you'll notice we don't have a document 
 + [MDN jQuery Selectors](https://api.jquery.com/category/selectors/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/jquery-selectors-readme'>jQuery Selectors </a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/jquery-selectors-readme'>jQuery Selectors Lab</a> on Learn.co and start learning to code for free.</p>
