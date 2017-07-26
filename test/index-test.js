@@ -15,8 +15,8 @@ describe('Selectors', () => {
   });
 
   it('divSelector() should return two divs', function() {
-    expect(divSelector().length).toBe(2);
-    expect(divSelector()[0].tagName).toEqual("DIV");
+    expect(divSelector().length).toBe(1);
+    expect(divSelector()[0].tagName).toEqual("LI");
   });
 
   it('firstListItem() should return the first list item in the unordered list', function() {
