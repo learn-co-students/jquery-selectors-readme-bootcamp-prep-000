@@ -1,4 +1,4 @@
-describe('Selectors', () => {
+/**describe('Selectors', () => {
   it('paragraphSelector() should select all paragraphs', function() {
     expect(paragraphSelector().length).toBe(1);
     expect(paragraphSelector()[0].innerHTML).toEqual($('p')[0].innerHTML);
@@ -24,4 +24,4 @@ describe('Selectors', () => {
     expect(firstListItem()[0].children[0].src).toEqual('https://s3.amazonaws.com/after-school-assets/awesome.jpg');
   });
 
-});
+}); **/
