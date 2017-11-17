@@ -18,3 +18,6 @@ function divSelector () {
 function firstListItem () {
   return $('ul li:first-child');
 }
+/*
+If there are more ul, return $('ul#pic-list li:first-child')
+*/
