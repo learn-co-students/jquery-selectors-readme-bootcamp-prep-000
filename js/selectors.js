@@ -4,6 +4,7 @@
 function paragraphSelector() {
  var pElements = $('p');
  return pElements;
+ // return $('p');  <- ***** is all that is needed to return *****
 }
 
 /* Write a function lastImageSelector that does not accept any parameters. The function
@@ -11,6 +12,7 @@ function paragraphSelector() {
 function lastImageSelector() {
   var lastImage = $('img:last');
   return lastImage;
+  // return $('img:last');
 }
 
 /* Write a function ninjaBabySelector that does not accept any parameters. The function
@@ -18,6 +20,7 @@ function lastImageSelector() {
 function ninjaBabySelector() {
   var babyNinja = $('#baby-ninja');
   return babyNinja;
+  // return $('#baby-ninja');;
 }
 
 /* Write a function divSelector that does not accept any parameters. The function should
@@ -25,6 +28,8 @@ function ninjaBabySelector() {
 function divSelector() {
   var myDivSelector = $('.pics');
   return myDivSelector;
+  // return $('.pics');
+
 }
 
 /* Write a function firstListItem that does not accept any parameters. The function
@@ -33,4 +38,5 @@ function divSelector() {
 function firstListItem() {
   var firstLi = $('ul li:first-child');
   return firstLi;
+  // return $('ul li:first-child');
 }
