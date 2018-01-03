@@ -13,3 +13,21 @@ var p = []
 p = $('p')
   return p
 }
+
+function lastImageSelector() {
+  var img = []
+  img = $('img:last')
+  return img
+}
+
+function ninjaBabySelector() {
+  var nin = []
+  nin = $('#baby-ninja')
+  return nin
+}
+
+function divSelector() {
+  div = []
+  div = $('.pics')
+  return div
+}
