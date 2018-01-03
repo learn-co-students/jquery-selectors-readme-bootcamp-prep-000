@@ -31,3 +31,9 @@ function divSelector() {
   div = $('.pics')
   return div
 }
+
+function firstListItem() {
+  var list = []
+  list = $('div ul li:first-child')
+  return list
+}
