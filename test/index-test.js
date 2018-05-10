@@ -1,12 +1,3 @@
-$('selector-goes-here')
-$('img')
-$('.pics')
-$('#baby-ninja')
-$('u1 li')
-$('parent-tag child-tag:first-child')
-$('div img:first-child')
-$("img[alt = 'the beatles making faces']")
-$('div:last')
 
 $('selector-goes-here')
 describe('Selectors', () => {
