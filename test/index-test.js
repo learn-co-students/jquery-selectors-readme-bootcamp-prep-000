@@ -1,3 +1,13 @@
+$('selector-goes-here')
+$('img')
+$('.pics')
+$('#baby-ninja')
+$('u1 li')
+$('parent-tag child-tag:first-child')
+$('div img:first-child')
+$("img[alt = 'the beatles making faces']")
+$('div:last')
+
 describe('Selectors', () => {
   it('paragraphSelector() should select all paragraphs', function() {
     expect(paragraphSelector().length).toBe(1);
