@@ -16,5 +16,5 @@ function divSelector(){
 }
 
 function firstListItem(){
-  return $('ul img:first-child');
+  return $('ul img:first-child').get(0)// the get function get's the first index from the listed items with those of ID "pic-list";
 }
