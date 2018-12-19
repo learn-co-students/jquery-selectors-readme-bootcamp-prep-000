@@ -6,13 +6,13 @@ function lastImageSelector(){
   return $('img:last')
 }
 function ninjaBabySelector(){
-  return $('#babyninja')
+  return $('img[id=baby-ninja]')
 }
 function divSelector(){
   var divs = $('div')
   return divs.slice(0,2)
 }
 function firstListItem(){
-  var tags = $('li')
-  return tags[0]
+  var tags = $('ul li:first-child')
+  return tags
 }
