@@ -10,14 +10,13 @@ function lastImageSelector() {
 }
 
 function ninjaBabySelector() {
-  // use ID selector to return ninja baby image
+  return $('#baby-ninja')
 }
 
 function divSelector() {
-  // use a class selector to return two divs with class 'pics'
+  return $('.pics')
 }
 
 function firstListItem() {
-  // use a firstchild selector to return the first list item in the 'ul'
-  // with the id 'pic-list'
+  return $('ul#pic-list li:first-child')
 }
