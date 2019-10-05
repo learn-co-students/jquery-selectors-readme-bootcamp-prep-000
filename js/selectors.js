@@ -1,6 +1,6 @@
 // declare your functions here...
 function paragraphSelector(){
-  var tagP = $("p");
+  var tagP = $('p');
   return tagP;
 }
 function lastImageSelector() {
@@ -21,6 +21,6 @@ function divSelector() {
 }
 
 function firstListItem() {
-  var firstList =  $('ul li:first-child');
+  var firstList =  $('ul li:first');
   return firstList;
 }
