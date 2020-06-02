@@ -166,3 +166,4 @@ function should use a first-child selector to return the first list item in the
 + [First-Child selector](https://www.w3schools.com/cssref/sel_firstchild.asp)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/jquery-selectors-readme'>jQuery Selectors</a> on Learn.co and start learning to code for free.</p>
+
