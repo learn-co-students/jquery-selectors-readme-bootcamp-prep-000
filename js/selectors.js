@@ -1,1 +1,10 @@
 // declare your functions here...
+$('selector-goes-here')
+$('img')
+$('pics')
+$('baby-ninja')
+$('u1 li')
+$('parent-tag child-tag:first-child')
+$('div img:first-child')
+$("img[alt'thebeatles making faces']")
+$('div:last')
