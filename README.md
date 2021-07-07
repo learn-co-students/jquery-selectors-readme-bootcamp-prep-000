@@ -1,4 +1,4 @@
-# jQuery Selectors
+ # jQuery Selectors
 
 ## Objectives
 
