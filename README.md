@@ -1,4 +1,4 @@
-# jQuery Selectors
+tion# jQuery Selectors
 
 ## Objectives
 
