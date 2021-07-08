@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js install --no-lockfile
+
+PATH: 
+  /var/opt/rails/bin:/var/opt/httpserver/bin:/var/opt/atom/bin:/var/opt/shotgun/bin:/var/opt/rackup/bin:/var/opt/rails/bin:/var/opt/httpserver/bin:/var/opt/atom/bin:/var/opt/shotgun/bin:/var/opt/rackup/bin:/usr/local/rvm/gems/ruby-2.3.1/bin:/usr/local/rvm/gems/ruby-2.3.1@global/bin:/usr/local/rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  6.10.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "jquery-selectors-readme",
+    "version": "0.1.0",
+    "description": "Practice with jQuery Selectors",
+    "main": "js/selectors.js",
+    "scripts": {
+      "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/learn-co-curriculum/jquery-selectors-readme.git"
+    },
+    "keywords": [
+      "javascript",
+      "jquery",
+      "learn",
+      "flatiron"
+    ],
+    "author": "Learn.co",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+      "url": "https://github.com/learn-co-curriculum/jquery-selectors-readme/issues"
+    },
+    "homepage": "https://github.com/learn-co-curriculum/jquery-selectors-readme#readme",
+    "devDependencies": {
+      "expect": "^1.20.1",
+      "jquery": "^2.2.4",
+      "jsdom": "^9.2.0",
+      "mocha": "^2.5.3",
+      "mocha-jsdom": "^1.1.0",
+      "mocha-multi": "^0.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ENETUNREACH 2400:cb00:2048:1::6810:3cad:443 - Local (:::0)
+      at Object.exports._errnoException (util.js:1018:11)
+      at exports._exceptionWithHostPort (util.js:1041:20)
+      at connect (net.js:884:16)
+      at net.js:1013:7
+      at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
